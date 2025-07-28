@@ -8,8 +8,8 @@ export function ProjectCard({ title, description, tags, link }) {
             bordered
             hoverable
             style={{
-                maxWidth: "700px",
-                fontSize: "1rem",
+                maxWidth: "35%",
+                fontSize: "24px",
                 transition: "box-shadow 0.3s ease",
                 textAlign: "center",
                 position: "relative",

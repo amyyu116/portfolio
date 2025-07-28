@@ -106,7 +106,7 @@ section {
 
 .projects-heading {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .project-grid {
@@ -114,12 +114,7 @@ section {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-}
-
-.project-grid > * {
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    box-sizing: border-box;
+    height: 400;
 }
 
 /* Dark Mode */
@@ -170,7 +165,7 @@ body.dark-mode .project-grid > * {
 }
 
 .project-description {
-    font-size: 1rem;
+    font-size: 16px;
     color: #4a4a4a;
     margin-bottom: 0.75rem;
 }

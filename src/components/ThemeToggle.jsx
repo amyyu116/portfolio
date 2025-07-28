@@ -14,6 +14,10 @@ export function ThemeToggle() {
 
     return (
         <Switch
+            style={{
+                backgroundColor: darkMode ? "#d19bf3" : undefined,
+                borderColor: darkMode ? "#d19bf3" : undefined,
+            }}
             checked={darkMode}
             checkedChildren={<BulbFilled />}
             unCheckedChildren={<BulbOutlined />}

@@ -31,8 +31,12 @@ export function ProjectPage() {
     );
 
     return (
-        <section id="projects" className="projects" style={{ padding: "1rem" }}>
-            <div style={{ marginBottom: "1.5rem" }}>
+        <section
+            id="projects"
+            className="projects"
+            style={{ padding: "1rem", paddingBottom: "100px" }}
+        >
+            <div>
                 <h2>Projects</h2>
                 <Select
                     mode="multiple"
