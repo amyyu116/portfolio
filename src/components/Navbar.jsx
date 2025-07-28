@@ -8,7 +8,7 @@ export function Navbar() {
             <nav className="navbar-links">
                 <Link to="/">About</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                {/* <Link to="/contact">Contact</Link> */}
             </nav>
         </header>
     );

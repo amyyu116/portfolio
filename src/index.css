@@ -38,6 +38,7 @@ a:hover {
 .site-title {
     font-size: 36px;
     font-weight: bold;
+    color: rgb(117, 54, 158);
 }
 
 .navbar-links a {
@@ -47,7 +48,7 @@ a:hover {
 }
 
 /* Intro Section */
-.intro-section {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +71,13 @@ a:hover {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
+.bold {
+    font-weight: 600;
+    color: rgb(117, 54, 158);
+}
+
 .intro-text {
-    max-width: 600px;
+    max-width: 60%;
     text-align: center;
 }
 
@@ -82,28 +88,18 @@ a:hover {
 }
 
 .intro-text h2 {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 1rem;
 }
 
 .intro-text p {
-    font-size: 18px;
+    font-size: 24px;
     color: #444;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    font-size: 0.875rem;
-    color: #666;
-    padding: 2rem;
-    margin-top: auto;
 }
 
 /* Projects Section */
 .projects {
     padding: 4rem 2rem;
-    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -112,22 +108,15 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.project-card {
-    max-width: 600px;
-    margin: 1.5rem auto;
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 1.5rem 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    text-align: left;
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.project-card h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-}
-
-.project-card p {
-    font-size: 1rem;
-    color: #444;
+.project-grid > * {
+    flex: 1 1 calc(50% - 20px); /* Two columns with 20px gap */
+    max-width: calc(50% - 20px);
+    box-sizing: border-box;
 }

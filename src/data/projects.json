@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Teamfight Tactics Data Platform",
+        "tags": ["personal", "full-stack", "docker"],
+        "description": "An application designed to present users with Teamfight Tactics player analytics. Built a PostgreSQL database to store and manage data from Riot API calls for Teamfight Tactics. Developed a React front-end for users to search and view their game metrics, connecting through an Express server. Containerized the app with Docker, mounting PostgreSQL data for streamlined deployment.",
+        "link": "https://github.com/amyyu116/tft_data"
+    },
+    {
+        "title": "Social Media Simulation",
+        "tags": ["research", "ai", "full-stack"],
+        "description": "A simulation designed for a human-computer interaction (HCI) research study. This platform simulates large-scale social media activity, dynamically generating responses using OpenAI based on user interactions. Enabled scalable testing of real-time engagement while managing hundreds of synthetic posts and user behaviors, managing data from individual runs of 200+ users. This project was built off of Cornell University's Truman Platform codebase.",
+        "link": "https://github.com/amyyu116/social-media-simulation"
+    },
+    {
+        "title": "AI Profiling Report",
+        "tags": ["research", "ai", "full-stack"],
+        "description": "Built a React-based web app allowing users to upload text for AI-driven analysis and profiling reports using social media data pulled from a MongoDB NoSQL database. Integrated MongoDB for structured storage and developed Express.js back-end logic to process input and generate clean, user-friendly reports using the OpenAI and Groq APIs for analysis on LLM-driven user profiling.",
+        "link": "https://github.com/amyyu116/ai-profiling-report"
+    },
+    {
+        "title": "Twitter Clone Project",
+        "tags": ["academic", "full-stack", "docker"],
+        "description": "Built a scalable Twitter clone with Flask and Django, designing a PostgreSQL database with 30M Tweets and indexed user tables for fast queries. Developed a front-end where users could create accounts, post Tweets, and search existing content.",
+        "link": "https://github.com/amyyu116/twitter_final_project"
+    },
+    {
+        "title": "Course Crusher",
+        "tags": ["personal", "ai"],
+        "description": "Project for the 5C Hackathon. We collaborated on building a student-focused system enabling users to upload syllabuses for AI-generated comparisons. Learned React.js to develop the front-end interface, and wrote Python scripts to parse PDFs and generate summaries using Google Gemini.",
+        "link": "https://github.com/amyyu116/5c-hack-2024"
+    },
+    {
+        "title": "Chord Progression Tutorial",
+        "tags": ["academic"],
+        "description": "Worked collaboratively in a UI design course to create an interactive tutorial introducing basic music theory and popular chord progressions, followed by a quiz to reinforce learning. Built with HTML for the user interface, a Flask server for serving static content, and JavaScript with Ajax to handle user interactions and server communication seamlessly.",
+        "link": "https://github.com/amyyu116/5c-hack-2024"
+    },
+    {
+        "title": "Video Proxy",
+        "tags": ["academic", "systems"],
+        "description": "Developed a Python-based proxy to support adaptive bitrate streaming for the movie Big Buck Bunny over HTTP. Implemented DNS querying and a DNS server, manifest parsing, and dynamic bitrate selection based on measured throughput using an exponentially weighted moving average. The proxy was designed to handle concurrent connections using threading and socket programming while logging chunk download details for analysis. Enabled seamless integration with ABR testing setups in network simulations.",
+        "link": null
+    },
+    {
+        "title": "HTTP Server",
+        "tags": ["academic", "systems"],
+        "description": "Implemented a C-based multithreaded HTTP server capable of serving static files and handling dynamic database queries via GET requests. Integrated a remote MDB lookup service over TCP to process search queries, returning formatted HTML tables to clients. Included request validation, error handling (400, 404, 501 responses), and logging for each client request. Enabled learning and application of socket programming, signal handling, and HTTP protocol parsing while maintaining security checks on URI paths.",
+        "link": null
+    }
+]
