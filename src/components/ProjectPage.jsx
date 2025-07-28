@@ -58,7 +58,19 @@ export function ProjectPage() {
                 ))}
             </div>
 
-            <div style={{ marginTop: "2rem", textAlign: "center" }}>
+            <div
+                style={{
+                    position: "fixed",
+                    bottom: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "80px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    zIndex: 1000,
+                }}
+            >
                 <Pagination
                     current={currentPage}
                     pageSize={pageSize}

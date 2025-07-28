@@ -37,15 +37,7 @@ export function ProjectCard({ title, description, tags, link }) {
                 ) : null
             }
         >
-            <p
-                style={{
-                    fontSize: "1rem",
-                    color: "#4a4a4a",
-                    marginBottom: "0.75rem",
-                }}
-            >
-                {description}
-            </p>
+            <p className="project-description">{description}</p>
             <div
                 style={{
                     display: "flex",
